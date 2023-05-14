@@ -1,0 +1,5 @@
+gp5 files to training data
+insert paths to folders in bat file
+run bat file
+run miditodata
+data now in preprocessed_data
