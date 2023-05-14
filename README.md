@@ -8,3 +8,8 @@ To test:
 1-Unpack model weights (in modeldata)
 2-Run notebook cells until the output save, commenting the dataset creation, the band names can be found in model.encoding.bands_list
 3-Run get_midi.py file in the outputs, you now have a generated midi file
+
+To train:
+The miditodata.py converts midi files to data that can be loaded for training. 
+
+Converitng gp5 to midi requires MuseScore3. This is done by the bat file, modify paths to folders in .bat.
