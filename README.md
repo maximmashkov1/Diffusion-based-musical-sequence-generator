@@ -1,3 +1,10 @@
+Project info:
 This generates musical sequences of stacked note embeddings which are then converted to midi files
 Training data extracted from on gp5/midi files from songsterr.com
+Supports conditioning on band name
 The model was trained to predict the temporal difference between notes too, but currently the rusults with this feature aren't satisfying, so the example sequences all use fixed times
+
+To test:
+1-Unpack model weights (in modeldata)
+2-Run notebook cells until the output save, commenting the dataset creation, the band names can be found in model.encoding.bands_list
+3-Run get_midi.py file in the outputs, you now have a generated midi file
