@@ -1,7 +1,6 @@
 try:
     import pickle
     import pretty_midi
-    from qt import quantize_times as qt
     def create_midi_file(data, output_file):
         # Create a PrettyMIDI object
         midi = pretty_midi.PrettyMIDI()
