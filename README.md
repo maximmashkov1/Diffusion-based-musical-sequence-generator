@@ -5,6 +5,8 @@ Training data extracted from on gp5/midi files from songsterr.com
 Supports conditioning on style (tech, black, other)
 The model was trained to predict the temporal difference between notes too, but currently the rusults with this feature aren't satisfying, so the example sequences all use fixed times
 
+![Diffusion process](/MusicGenDiffusion/Example outputs)
+
 To test:
 1-Unpack model weights (in modeldata)
 2-Run notebook cells until the output save, commenting the dataset creation, the band names can be found in model.encoding.bands_list
