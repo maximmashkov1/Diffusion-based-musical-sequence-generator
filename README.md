@@ -1,5 +1,5 @@
 Project info:
-![Diffusion process]([url](https://i.imgur.com/0F374vh.jpeg))
+
 This generates musical sequences of stacked note embeddings which are then converted to midi files
 Training data extracted from on gp5/midi files from songsterr.com
 Supports conditioning on band name
