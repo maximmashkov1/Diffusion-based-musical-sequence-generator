@@ -5,7 +5,7 @@ Training data extracted from on gp5/midi files from songsterr.com
 Supports conditioning on style (tech, black, other)
 The model was trained to predict the temporal difference between notes too, but currently the rusults with this feature aren't satisfying, so the example sequences all use fixed times
 
-![Diffusion process](/MusicGenDiffusion/Example outputs/diffusion.png)
+![Diffusion process](/MusicGenDiffusion/Example%20outputs/diffusion.png)
 
 To test:
 1-Unpack model weights (in modeldata)
